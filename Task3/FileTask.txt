@@ -1,2 +1,0 @@
-This is the file for Task 3, which is to create, read and modify files
-The file is modified by adding this line to it.
