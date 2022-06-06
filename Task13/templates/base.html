@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+	body 
+	{
+	background-color: linen;
+	}
+
+	h1 
+	{
+	color: black;
+	text-align: center;
+	margin-left: 30px;
+	}
+	table
+	{
+		border: 1;
+		width: 100%;
+	}
+	form
+	{
+		text-align: center;
+	}
+	th 
+	{
+	  background: #ffb737;
+	  height:60px;
+	  display: table-cell;
+	  vertical-align: inherit;
+	  font-weight: bold;
+	  font-size: 20px;
+	  text-align: center;
+	}
+
+	tr 
+	{ 
+	  height:60px;
+	 font-weight: bold;
+	  text-align: center;
+	}
+
+	input[type="submit"] {
+	  border: none;
+	  outline: none;
+	  color: #fff;
+	  background-color: #03a9f4;
+	  padding: 0.625rem 1.25rem;
+	  cursor: pointer;
+	  border-radius: 0.312rem;
+	  font-size: 1rem;
+	}
+
+	input[type="submit"]:hover {
+	  background-color: #1cb1f5;
+	}
+	.button {
+    width: 60px;
+    height: 20px;
+    background: #03a9f4;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+</style>
+  	<title>Todo App</title>
+   
+    {% block head %}
+
+    {% endblock %}    
+</head>
+
+<body>
+    {% block body %}
+
+  
+
+
+
+    {% endblock %}
+
+</body>
+</html>
