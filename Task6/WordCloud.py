@@ -9,7 +9,7 @@ from wordcloud import WordCloud
 data = pd.read_csv("android-games.csv")
 
 #Checking the Data
-df.head()
+data.head()
 
 #Checking NaN Values
 data.isna().sum()
@@ -20,6 +20,6 @@ text = " ".join(cat.split()[1] for cat in data.category)
 word_cloud = WordCloud(collocations = False, background_color = 'white').generate(text)
 
 #Display Word Cloud
-plt.imshow(wordcloud, interpolation='bilinear')
+plt.imshow(word_cloud, interpolation='bilinear')
 plt.axis("off")
 plt.show()
